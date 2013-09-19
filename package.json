@@ -1,0 +1,8 @@
+{
+  "name": "bunyan-logstash",
+  "version": "0.1.0",
+  "description": "Logstash plugin for Bunyan",
+  "main": "lib/logstash.js",
+  "author": "Justin Rainbow",
+  "license": "MIT"
+}
