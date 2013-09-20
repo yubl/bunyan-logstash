@@ -6,5 +6,8 @@
   "homepage": "https://github.com/sheknows/bunyan-logstash",
   "main": "lib/logstash.js",
   "author": "Justin Rainbow",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "~0.21.4"
+  }
 }
