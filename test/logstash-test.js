@@ -14,9 +14,9 @@ describe( "logstash", function() {
         var arg0 = stream.send.firstCall.args[0];
         var obj = JSON.parse( arg0 );
         expect( obj["@timestamp"] ).to.contain( "20" );
-        expect( obj["@message"] ).to.be( "Test" );
-        expect( obj["@tags"] ).to.eql( ["bunyan"] );
-        expect( obj["@level"] ).to.be( "debug" );
-        expect( obj["@fields"].testField ).to.be( 1 );
+        expect( obj.message ).to.be( "Test" );
+        expect( obj.tags ).to.eql( ["bunyan"] );
+        expect( obj.level ).to.be( "debug" );
+        expect( obj.testField ).to.be( 1 );
     } );
 } );
